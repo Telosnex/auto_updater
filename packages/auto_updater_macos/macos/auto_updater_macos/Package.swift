@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "auto_updater_macos",
     platforms: [
-        .macOS("10.15")
+        .macOS("12.0")
     ],
     products: [
         .library(name: "auto-updater-macos", targets: ["auto_updater_macos"])
