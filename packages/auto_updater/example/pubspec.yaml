@@ -17,7 +17,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   mostly_reasonable_lints: ^0.1.2
+
+# The plugins come from this repository, so the example tests the Swift
+# Package Manager code of auto_updater_macos, not the pub.dev release.
+dependency_overrides:
+  auto_updater_macos:
+    path: ../../auto_updater_macos
+  auto_updater_platform_interface:
+    path: ../../auto_updater_platform_interface
+  auto_updater_windows:
+    path: ../../auto_updater_windows
 
 flutter:
   uses-material-design: true
