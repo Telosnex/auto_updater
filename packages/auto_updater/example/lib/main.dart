@@ -1,5 +1,7 @@
 import 'package:auto_updater_example/pages/home.dart';
 import 'package:bot_toast/bot_toast.dart';
+// Keep the Flutter SDK export for compatibility with older SDKs.
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 import 'package:window_manager/window_manager.dart';
 
